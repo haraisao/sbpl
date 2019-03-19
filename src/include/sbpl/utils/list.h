@@ -32,6 +32,9 @@
 
 #include <cstdlib>
 #include <sstream>
+#ifdef WIN32
+#include <algorithm>
+#endif
 
 #include <sbpl/config.h>
 #include <sbpl/sbpl_exception.h>

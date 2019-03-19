@@ -26,7 +26,10 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-
+#ifdef WIN32
+#define _USE_MATH_DEFINES
+#include <algorithm>
+#endif
 #include <cmath>
 #include <cstring>
 #include <ctime>
